@@ -1,5 +1,4 @@
-for i in range (1, 11, 1 ):
-
-    total = 1
-    total = total * i
-    print ("1" + " x " + str(i) + " = " + str(total)  )
+for i in range(1, 11):
+    for j in range(1, 11):
+        print(str(i*j) + "\t")
+    print("")

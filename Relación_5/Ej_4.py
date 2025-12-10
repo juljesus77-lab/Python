@@ -1,16 +1,24 @@
-for i in range (1,5,1):
-    num = int(input("Introduzca los números ganadores "))
-    print 
+num = 0
+contador = 0
+while num >= 0:
+    lista = []
+    lista.append==int(input ("Introduzca un número"))
+print (lista)
 
-lista = []
-opcion = int(input ("Introduzca una opción: "))
-print ("1. Añadir número")
-print ("2. Salir")
-if (opcion == 1):
-    num = int(input("Introduzca el número a añadir"))
-    lista.append(num)
-elif (opcion == 2):
-    c = 0
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+    
     
 
 

@@ -1,5 +1,5 @@
 a = int (input ("Introduce la altura "))
-numero=0
 for i in range (0,a):
-    print (" "*a," * ")
-    a+=1
+    print (a*" " + "*" )
+    a = a - 1 
+print ("*"*7)

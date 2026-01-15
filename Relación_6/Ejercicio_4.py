@@ -18,4 +18,4 @@ mes_txt = {
     '12':'diciembre'
 }
 
-print (str(dia) + " de "  + str(mes_txt[str(mes)]) + " de " + str(anio))
+print (dia + " de "  + mes_txt[mes] + " de " + anio)

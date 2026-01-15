@@ -3,11 +3,19 @@ dia = p.split("/")[0]
 mes = p.split("/")[1]
 anio = p.split("/")[2]
 
-thisdict = {
-    "dia": dia,
-    "mes": mes,
-    "anio": anio
+mes_txt = {
+    '01':'enero',
+    '02':'febrero',
+    '03':'marzo',
+    '04':'abril',
+    '05':'mayo',
+    '06':'junio',
+    '07':'julio',
+    '08':'agosto',
+    '09':'septiembre',
+    '10':'octubre',
+    '11':'noviembre',
+    '12':'diciembre'
 }
 
-
-print (thisdict["dia"] + " de "  + thisdict["mes"] + " de " + thisdict["anio"])
+print (str(dia) + " de "  + str(mes_txt[str(mes)]) + " de " + str(anio))
